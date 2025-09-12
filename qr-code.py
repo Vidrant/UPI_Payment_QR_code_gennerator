@@ -15,10 +15,11 @@ Google_pay_qr = qrcode.make(Google_pay_url)
 Paytm_qr = qrcode.make(Paytm_url)
 
 #Save the QR code to image file(optional)
-#Google_pay_qr.save('google_pay_qr.png')
-#Paytm_qr.save('Paytm_qr.png')
+Google_pay_qr.save('google_pay_qr.png')
+Paytm_qr.save('Paytm_qr.png')
 
 #Display the QR code (thus use of pillow library)
 Google_pay_qr.show()
 Paytm_qr.show()
+
 
